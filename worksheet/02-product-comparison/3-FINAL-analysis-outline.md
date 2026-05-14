@@ -1,268 +1,224 @@
 ---
 artifact: 3 — Outline 5 mục cho slide deck Analysis Report
 bai-tap: 2 — Phân tích 2 sản phẩm AI (nhóm 2 học viên)
-phase: Phase 3 — Dựng slide deck (15 phút)
-time: 10 phút outline + 5 phút build slide
-input: 1-research-notes.md + 2-comparison-table.md + screenshots/ + prompts/08-analysis-report.md
-nop-cuoi: Có gián tiếp — outline này dùng làm cốt cho `analysis-report.pdf` (deliverable bắt buộc)
+phase: Phase 3 — Dựng slide deck
+nop-cuoi: Có gián tiếp — outline này là cốt cho `analysis-report.pdf`
 ---
 
-# 3 — Outline 5 mục cho slide deck (S1 → S5 với S5 mở rộng 8 sub-mục)
+# 3 — Outline slide deck: Grammarly vs Microsoft Copilot
 
-Mục tiêu: dựng outline đầy đủ cho slide deck Analysis Report ngay trong file markdown — viết hết nội dung 5 mục ở đây trước, sau đó copy sang slide (pptx / Keynote / Google Slides). Không build slide trước khi outline xong.
+## Thông tin chung
 
-Lý do làm bước này: dựng thẳng slide từ log dễ bị thiếu mục hoặc bị "đẹp ngoài rỗng trong". Outline markdown ép nhóm trả lời từng câu hỏi trước khi nghĩ về thiết kế slide. Khi giảng viên / nhóm khác hỏi "vì sao bạn xếp Sản phẩm A là Promising?" — câu trả lời đã có sẵn trong outline.
-
-Quy tắc: mỗi nhận định trong outline phải nối được về bằng chứng cụ thể (ảnh / log / số liệu công khai). Nếu một sub-mục để trống → quay lại `1-research-notes.md` đào thêm trước khi sang slide.
-
-## Quy trình 15 phút
-
-```text
-2 phút  — Đọc lại 2-comparison-table.md để có context
-8 phút  — Điền outline 5 mục (S1 → S5)
-4 phút  — Riêng cho S5: mở rộng 8 sub-mục (S5.1 → S5.8)
-1 phút  — Đối chiếu bảng kiểm trước khi build slide
-```
-
-> Sau 15 phút outline + đối chiếu, mới mở pptx / Google Slides / Keynote và copy nội dung sang. Slide deck export thành `analysis-report.pdf` ở cùng folder này.
+- **Mã 2 thành viên**: 2A202600372 (Hoàng Kim Trí Thành) + 2A202600228 (Nguyễn Trọng Tiến)
+- **Ngành**: C — Viết lách (AI writing & workplace productivity)
+- **Nhiệm vụ chung**: Rewrite rough business email thành professional email + 3 subject lines
+- **Sản phẩm A**: Grammarly — https://coda.grammarly.com
+- **Sản phẩm B**: Microsoft Copilot — https://copilot.microsoft.com
+- **Câu prompt**: "Rewrite this rough business email into a professional, concise, persuasive email for a client. Keep the tone polite but confident. Then suggest 3 subject lines and explain why your version is better. [email thô]"
 
 ---
 
-## Thông tin chung của báo cáo
-
-- **Mã 2 thành viên + tên**: [A20-XXXXX (Tên) + A20-YYYYY (Tên)]
-- **Ngành chọn**: [A — Tìm kiếm / B — Lập trình / C — Viết lách / D — Nghiên cứu]
-- **Nhiệm vụ chung đã test**: [...]
-- **Sản phẩm A** (tên + URL): [...]
-- **Sản phẩm B** (tên + URL): [...]
-- **Câu prompt chính xác đã dùng**: [...]
-
----
-
-## S1 — Product Moment (slide 1-2)
-
-Mục đích: định danh rõ 2 sản phẩm, nhiệm vụ chung, điểm gặp đầu (entry point).
+## S1 — Product Moment (slide 1–2)
 
 ### S1.1 — Bảng so sánh nhanh
 
-| Yếu tố | Sản phẩm A | Sản phẩm B |
+| Yếu tố | Grammarly | Microsoft Copilot |
 |---|---|---|
-| Tên + URL | [...] | [...] |
-| Entry point (trang đầu nhìn thấy gì) | [...] | [...] |
-| Ý định người dùng (vào để làm gì) | [...] | [...] |
-| Surface chính (chat / form / canvas / IDE / khác) | [...] | [...] |
-| Có cần đăng nhập / paywall ngay không | [...] | [...] |
+| Tên + URL | Grammarly — coda.grammarly.com | Microsoft Copilot — copilot.microsoft.com |
+| Entry point | Doc editor (Coda-based) + AI panel bên phải với 4 agents | Chat interface chuẩn, "Ask anything" |
+| Ý định người dùng | Chỉnh sửa văn bản trong document — "polish my writing" | Tạo draft email từ đầu — "do the work for me" |
+| Surface chính | Document canvas + AI agent panel | Conversational chat |
+| Đăng nhập / paywall | Cần login; free tier có "Free sample" limit | Cần login; free tier full-featured cho task này |
 
-### S1.2 — Bằng chứng (ảnh tham chiếu)
+### S1.2 — Bằng chứng
 
-- `screenshots/product-A-1-entry.png` — mô tả 1 câu: [...]
-- `screenshots/product-B-1-entry.png` — mô tả 1 câu: [...]
+- `screenshots/grammarly-entry.png` — Grammarly: doc editor với 4 agent panel (Proofreader, Detector, Humanizer, Expert Review)
+- `screenshots/copilot-input-output.png` — Copilot: chat interface với output email send-ready
 
-### S1.3 — Nhận định so sánh entry point (2-3 câu)
+### S1.3 — Nhận định so sánh entry point
 
-[Sản phẩm nào tạo first impression tốt hơn? Vì sao? Liên kết với ý định người dùng.]
+Grammarly định vị như **writing enhancement tool** — người dùng paste text vào doc rồi mới dùng AI. Copilot định vị như **AI writing assistant** — người dùng đưa yêu cầu, AI tạo từ đầu. Với task "viết email chuyên nghiệp cho khách hàng", Copilot có intent alignment tốt hơn ngay từ lần đầu tiếp xúc; Grammarly phù hợp hơn khi user đã có draft và muốn cải thiện.
 
 ---
 
-## S2 — Workflow Evidence (slide 3-4)
+## S2 — Workflow Evidence (slide 3–4)
 
-Mục đích: hiển thị luồng người dùng + 3 friction areas (Lens 3).
+### S2.1 — Luồng người dùng
 
-### S2.1 — Luồng người dùng (trước / trong / sau khi dùng AI)
-
-```text
+```
 TRƯỚC khi gặp AI:
-- [Người dùng đang làm gì, trên công cụ nào]
+- Người dùng có email thô cần gửi cho khách hàng, muốn nâng cấp lên chuyên nghiệp
 
-TRONG khi dùng Sản phẩm A:
-1. [Bước 1: …]
-2. [Bước 2: …]
-3. [Bước 3: …]
+TRONG khi dùng Grammarly:
+1. Mở coda.grammarly.com → tạo blank doc
+2. Paste email thô vào document
+3. Chọn (select) toàn bộ text
+4. Trigger Proofreader agent → popup "Rewrite for professionalism"
+5. Accept hoặc Dismiss
+6. Copy text từ doc → paste sang email client riêng để gửi
+(6-7 bước, chuyển đổi giữa 2 ứng dụng)
 
-TRONG khi dùng Sản phẩm B:
-1. [Bước 1: …]
-2. [Bước 2: …]
-3. [Bước 3: …]
+TRONG khi dùng Microsoft Copilot:
+1. Mở copilot.microsoft.com
+2. Paste toàn bộ prompt + email thô vào chat box
+3. Nhận email draft format sẵn (Subject, To, Body) + Suggested Subject Lines
+4. Bấm "Send with Outlook" để gửi trực tiếp
+(2-3 bước, không cần rời giao diện)
 
 SAU khi dùng AI:
-- [Người dùng làm gì với output: copy, paste, gửi cho ai, lưu ở đâu]
+- Grammarly: còn cần copy-paste sang Gmail/Outlook + viết subject line thủ công
+- Copilot: "Send with Outlook" — gửi ngay từ trong giao diện
 ```
 
-### S2.2 — 3 Friction Areas (Lens 3)
+### S2.2 — 3 Friction Areas
 
-| Friction | Sản phẩm A | Sản phẩm B |
+| Friction | Grammarly | Microsoft Copilot |
 |---|---|---|
-| **Physical load** (số click, tab, copy-paste) | [...] | [...] |
-| **Cognitive burden** (cần học prompt eng. / nhớ ngữ cảnh giữa lượt chat) | [...] | [...] |
-| **User workarounds** (nhóm phải tự làm gì để bù yếu điểm) | [...] | [...] |
+| Physical load | 5-6 bước: doc → paste → select → trigger → accept → copy sang email | 2-3 bước: paste prompt → nhận draft → Send with Outlook |
+| Cognitive burden | Cần biết doc editor paradigm + 4 agents + cách trigger inline rewrite | Chat interface quen thuộc, không cần biết gì thêm |
+| User workarounds | Copy-paste sang email client; upgrade để thoát "Free sample" giới hạn | Bấm "Enable Outlook" lần đầu; scroll để thấy Suggested Subject Lines |
 
 ### S2.3 — Bằng chứng
 
-- `screenshots/product-A-2-input.png` + `screenshots/product-A-3-output.png`
-- `screenshots/product-B-2-input.png` + `screenshots/product-B-3-output.png`
+- `screenshots/grammarly-input-output.png` — popup rewrite overlay, Accept/Dismiss, context notes panel phải
+- `screenshots/copilot-input-output.png` — email send-ready output với Subject field + "Send with Outlook" button
 
-### S2.4 — Nhận định: sản phẩm nào giảm friction tốt hơn? Tại sao? (3-4 câu)
+### S2.4 — Nhận định
 
-[...]
+Copilot giảm friction rõ rệt cho task "viết email từ đầu": từ 6-7 bước xuống 2-3 bước, không cần chuyển đổi ứng dụng nhờ Outlook integration. Grammarly phù hợp hơn với user đã quen workflow doc-based và muốn kiểm soát từng thay đổi — nhưng với người dùng mới hoặc deadline gấp, Copilot là lựa chọn ít friction hơn đáng kể.
 
 ---
 
-## S3 — Output & Trust (slide 5-6)
-
-Mục đích: đánh giá chất lượng output + 6 tín hiệu đáng tin.
+## S3 — Output & Trust (slide 5–6)
 
 ### S3.1 — Chất lượng output
 
-Cho mỗi sản phẩm, trả lời 3 câu:
+- **Grammarly** (`screenshots/grammarly-input-output.png`):
+  - Trả lời đúng yêu cầu: **Có** — email rewrite professional, concise, polite
+  - Hallucination: **Không** — rewrite dựa trên text gốc, không thêm thông tin bịa
+  - Đầy đủ: **Không hoàn toàn** — "Free sample" label, KHÔNG có subject line suggestions trong visible output
 
-- **Sản phẩm A**:
-  - Output có **trả lời đúng câu hỏi** chính không? [...]
-  - Output có **bịa thông tin** không (hallucination)? Nếu có, chỗ nào? [...]
-  - Output có **đầy đủ** hay nửa vời? [...]
-- **Sản phẩm B**:
-  - Output có **trả lời đúng câu hỏi** chính không? [...]
-  - Output có **bịa thông tin** không? [...]
-  - Output có **đầy đủ** hay nửa vời? [...]
+- **Microsoft Copilot** (`screenshots/copilot-input-output.png`):
+  - Trả lời đúng yêu cầu: **Có** — email rewrite professional + Subject field + Suggested Subject Lines section
+  - Hallucination: **Không** — rewrite từ email thô, không thêm thông tin sai
+  - Đầy đủ: **Có** — full output không bị cắt trong free tier; cả subject lines lẫn explanation đều có
 
-### S3.2 — 6 Tín hiệu đáng tin (đối chiếu)
+### S3.2 — 6 Tín hiệu đáng tin
 
-| Tín hiệu | Sản phẩm A | Sản phẩm B |
+| Tín hiệu | Grammarly | Microsoft Copilot |
 |---|---|---|
-| 1. Dẫn nguồn (citation mở được, đúng nội dung) | [có / không / có nhưng nguồn ảo] | [...] |
-| 2. Disclaimer khi không chắc | [...] | [...] |
-| 3. Fallback / dừng lại khi out-of-scope | [...] | [...] |
-| 4. Consistency (chạy 2 lần cùng prompt) | [...] | [...] |
-| 5. User control (sửa, dừng, regenerate, undo) | [...] | [...] |
-| 6. Explanation (giải thích "vì sao AI nói thế") | [...] | [...] |
+| 1. Dẫn nguồn | Không cần — task rewriting | Không cần — task rewriting |
+| 2. Disclaimer khi không chắc | Không thấy | Không thấy |
+| 3. Fallback khi out-of-scope | Không quan sát được | Không quan sát được |
+| 4. Consistency (2 lần cùng prompt) | Không test | Không test |
+| 5. User control | **Accept / Dismiss** — kiểm soát từng thay đổi | **Follow-up chat** + "Send with Outlook" |
+| 6. Explanation ("vì sao AI nói thế") | **Có** — context notes: "Organizing for better impact", "Expressing appreciation" | **Không** — output là email final, không giải thích rationale |
 
-### S3.3 — Nhận định: sản phẩm nào tạo trust mạnh hơn? Vì sao? (3-4 câu)
+### S3.3 — Nhận định
 
-[...]
+Grammarly transparent hơn về lý do rewrite (context notes giải thích từng chỉnh sửa) — tốt cho user muốn học và kiểm soát. Copilot actionable hơn với send-ready format — tốt cho user muốn xong việc nhanh. Điểm trừ Grammarly: "Free sample" tạo uncertainty về tính đầy đủ của output; điểm trừ Copilot: không giải thích tại sao version mới tốt hơn (dù prompt yêu cầu).
 
 ---
 
 ## S4 — Business Signal (slide 7)
 
-Mục đích: định vị 2 sản phẩm trên Cost-Capability-Speed + pricing pattern.
+### S4.1 — Định vị tam giác
 
-### S4.1 — Định vị tam giác (cho mỗi sản phẩm)
-
-- **Sản phẩm A**: [rẻ-nhanh / mạnh-đắt / cân bằng] — model dưới mui xe: [...] — lý do định vị 1 câu: [...]
-- **Sản phẩm B**: [rẻ-nhanh / mạnh-đắt / cân bằng] — model dưới mui xe: [...] — lý do định vị 1 câu: [...]
+- **Grammarly**: **mạnh-đắt** — writing quality + grammar accuracy cao; phải trả $12-30/tháng để unlock full GenAI; brand voice enforcement cho enterprise. Trade-off: friction cao + cần upgrade.
+- **Microsoft Copilot**: **cân bằng + distribution advantage** — free tier đủ mạnh cho task thông thường; lợi thế thực sự là Microsoft 365 ecosystem (Word/Outlook/Teams), không phải AI quality.
 
 ### S4.2 — Pricing pattern
 
-| Yếu tố | Sản phẩm A | Sản phẩm B |
+| Yếu tố | Grammarly | Microsoft Copilot |
 |---|---|---|
-| Mô hình giá | [Free / Freemium / Seat-based / Usage / Outcome / Hybrid] | [...] |
-| Giá entry (free tier giới hạn gì) | [...] | [...] |
-| Giá trả phí (gói chính + giá) | [...] | [...] |
-| Paywall xuất hiện ở đâu (khi hết quota / tính năng nâng cao / etc.) | [...] | [...] |
+| Mô hình giá | Freemium (limited) → Seat-based Pro | Freemium (robust) → M365 bundle |
+| Free tier giới hạn | "Free sample" output, không có brand voice, limited GenAI | Full chat capability; Outlook integration cần enable |
+| Gói trả phí chính | Pro: $12-30/user/month | Microsoft 365 Copilot: $30/user/month |
+| Paywall | "Free sample" label xuất hiện trong rewrite popup | Ít thấy paywall trong consumer tier; enterprise features trong M365 |
 
-### S4.3 — Nhận định: chiến lược kinh doanh của 2 sản phẩm khác nhau thế nào? (2-3 câu)
+### S4.3 — Nhận định chiến lược
 
-[...]
+Grammarly monetize bằng quality gate (phải trả mới thấy full output); Copilot monetize bằng ecosystem lock-in (free tier đủ dùng, nhưng giá trị thật ở M365 integration mà enterprise đã trả $30/user/month). Chiến lược của Copilot bền hơn: không cần thuyết phục user nâng cấp riêng — enterprise tự adopt vì đã có M365 subscription.
 
 ---
 
-## S5 — Product Judgment (slide 8-12 — phần đậm nhất)
+## S5 — Product Judgment (slide 8–12)
 
-Mục đích: ra verdict + vận dụng 4 Lens + Spark/Loop/System + Niche/Feature Map + liên hệ Lab 1.
+### S5.1 — Verdict
 
-S5 mở rộng thành 8 sub-mục — bắt buộc xong **S5.1, S5.6, S5.7, S5.8**. Nhóm khá phải hoàn thành cả 8 sub-mục. Nhóm Đạt có thể ghi "không có nguồn công khai" cho 1-2 số liệu ở S5.2-S5.5 nhưng phải ghi rõ.
-
-### S5.1 — Verdict (BẮT BUỘC)
-
-Cho mỗi sản phẩm, chọn 1 trong 4: **Strong** / **Promising** / **Weak** / **At Risk**, kèm lý do 1 câu.
-
-- **Sản phẩm A**: [Verdict] — Lý do: [...]
-- **Sản phẩm B**: [Verdict] — Lý do: [...]
+- **Grammarly**: **Promising** — writing quality và agent UX tốt, đang pivot đúng hướng (Coda acquisition), nhưng distribution moat mỏng và đang bị Big Tech tấn công từ cấp platform. Window of opportunity hẹp dần.
+- **Microsoft Copilot**: **Strong** — distribution moat từ Microsoft 365 ecosystem (85,000+ tổ chức) tạo switching cost cao; "Send with Outlook" là tính năng không thể replicate bằng browser extension. Rủi ro: Google Workspace AI đang cạnh tranh cùng chiến lược distribution.
 
 ### S5.2 — User base + tăng trưởng
 
-Số liệu công khai (MAU, DAU, paid users, growth rate) cho cả 2 sản phẩm + nguồn (URL + ngày).
-
-- **Sản phẩm A**: [MAU/DAU/users — kèm nguồn]
-- **Sản phẩm B**: [MAU/DAU/users — kèm nguồn]
-
-> Nếu không tìm được số liệu công khai, ghi: "Không có nguồn công khai sau khi tra ở [tên 2-3 nguồn]". Không bịa.
+- **Grammarly**: 40M+ daily active users (2024); 50,000+ paying teams — Source: Grammarly blog 2024
+- **Microsoft Copilot (M365)**: 85,000+ organizations using M365 Copilot (2024) — Source: Microsoft Build 2024 keynote; tổng Microsoft 365 users: 400M+
 
 ### S5.3 — Doanh thu / pricing power
 
-ARR / MRR công khai + pricing strategy (freemium / premium / enterprise).
+- **Grammarly**: ARR $700M+ (2023, không công khai chính thức) — Source: ước tính từ Forbes/TechCrunch. Freemium → Pro $12-30/tháng → Enterprise custom pricing.
+- **Microsoft Copilot**: Revenue đến từ M365 bundle — Microsoft Commercial Cloud revenue $135B+ (FY2024); Copilot add-on $30/user/month chưa tách riêng. Pricing power rất mạnh vì bundle vào subscription enterprise hiện có.
 
-- **Sản phẩm A**: [ARR/MRR — nguồn] + chiến lược pricing: [...]
-- **Sản phẩm B**: [ARR/MRR — nguồn] + chiến lược pricing: [...]
+### S5.4 — Moat phân tích
 
-### S5.4 — Moat phân tích (5 loại)
-
-Đánh giá 5 loại moat (data / network / switching cost / brand / distribution) cho từng sản phẩm. Mỗi moat đánh dấu: **mạnh** / **trung bình** / **yếu / dễ bị copy**.
-
-| Moat | Sản phẩm A | Sản phẩm B |
+| Moat | Grammarly | Microsoft Copilot |
 |---|---|---|
-| Data (proprietary data flywheel) | [...] | [...] |
-| Network effects | [...] | [...] |
-| Switching cost (chi phí đổi sang sản phẩm khác) | [...] | [...] |
-| Brand | [...] | [...] |
-| Distribution (kênh tiếp cận user) | [...] | [...] |
+| Data (proprietary) | **Trung bình** — 15+ năm dữ liệu grammar corrections từ 40M DAU | **Mạnh** — OpenAI GPT-4 + Microsoft proprietary data từ Office 365 |
+| Network effects | **Yếu** — users không tương tác nhau; không có network compounding | **Trung bình** — Copilot trong Teams tạo network effect trong tổ chức |
+| Switching cost | **Thấp** — extension dễ gỡ, thay bằng ChatGPT | **Mạnh** — M365 integration; thay Copilot = thay cả workflow Word/Outlook/Teams |
+| Brand | **Mạnh với writers/editors** — "Grammarly" = grammar checker trong văn hóa đại chúng | **Trung bình** — "Copilot" chưa có brand identity mạnh độc lập khỏi Microsoft |
+| Distribution | **Yếu-Trung** — browser extension + standalone web | **Rất mạnh** — pre-installed trong Windows, tích hợp Word/Outlook/Teams/Edge |
+
+- **Moat chủ đạo Grammarly**: Brand (trong writing community) + Data (grammar corrections)
+- **Moat chủ đạo Copilot**: Distribution (Microsoft 365 ecosystem) + Switching cost (workflow lock-in)
 
 ### S5.5 — Data flywheel + feedback loop
 
-Hành động người dùng nào feed lại model? Loop có compounding (mỗi lần dùng → cải thiện model → giá trị cao hơn → người dùng dùng tiếp) không?
+- **Grammarly**: Users accept/dismiss suggestions → signal về grammar patterns → cải thiện model grammar detection. Loop **có compounding nhưng yếu** — 40M DAU tạo signal lớn, nhưng grammar feedback không tạo ra user-to-user network.
+- **Microsoft Copilot**: Users dùng trong Word/Outlook/Teams → interaction data feed lại OpenAI + Microsoft → model cải thiện. Loop **mạnh hơn** nhờ volume (400M+ M365 users) và context (biết user đang làm gì trong Office suite).
 
-- **Sản phẩm A**: [Mô tả loop 1-2 câu — có compounding không?]
-- **Sản phẩm B**: [Mô tả loop 1-2 câu — có compounding không?]
+### S5.6 — Niche Down + AI Feature Map
 
-### S5.6 — Niche Down + AI Feature Map (BẮT BUỘC)
+**Grammarly**:
+- Niche: Writers, content creators, non-native English speakers, và teams cần brand voice consistency — "polish existing writing"
+- AI Feature Map:
+  - User Value: **Cao** — giải quyết đúng vấn đề grammar/clarity/tone cho writer
+  - User Alignment: **Trung bình** — agent UX tốt nhưng doc editor paradigm có learning curve
+  - Business Value: **Trung bình** — freemium conversion OK nhưng GenAI tạo pressure lên pricing model
 
-- **Sản phẩm A**:
-  - Niche cụ thể (đối tượng người dùng + use case): [...]
-  - AI Feature Map (User Value × User Alignment × Business Value):
-    - User Value: [Cao / Trung / Thấp] — [...]
-    - User Alignment: [Cao / Trung / Thấp] — [...]
-    - Business Value: [Cao / Trung / Thấp] — [...]
-- **Sản phẩm B**:
-  - Niche cụ thể: [...]
-  - AI Feature Map:
-    - User Value: [Cao / Trung / Thấp] — [...]
-    - User Alignment: [Cao / Trung / Thấp] — [...]
-    - Business Value: [Cao / Trung / Thấp] — [...]
+**Microsoft Copilot**:
+- Niche: Enterprise knowledge workers trong Microsoft 365 ecosystem — "generate first draft + send directly"
+- AI Feature Map:
+  - User Value: **Cao** — output send-ready, giảm friction đáng kể cho email/document workflow
+  - User Alignment: **Cao** — chat interface familiar, "Send with Outlook" matches intent
+  - Business Value: **Rất cao** — bundle vào M365 tạo revenue tự động, không cần separate conversion funnel
 
-### S5.7 — Spark → Loop → System (BẮT BUỘC)
+### S5.7 — Spark → Loop → System
 
-Mỗi sản phẩm đang ở giai đoạn nào trong 3 giai đoạn?
+- **Grammarly**: Đang ở giai đoạn **Loop → System** (chuyển tiếp) — đã có user base lớn (40M DAU) và revenue ($700M ARR), nhưng đang bị disrupt bởi ChatGPT/Copilot. Coda acquisition là nỗ lực thoát Loop thành System bằng platform play. **Dự báo 12 tháng**: Nếu doc editor + agent UX được adopt rộng, có thể consolidate vị trí System trong niche "professional writing platform". Nếu không, tiếp tục suy giảm market share trong general writing.
 
-- **Sản phẩm A**: [Spark / Loop / System] — Lý do: [...] — Dự báo 12 tháng tới: [...]
-- **Sản phẩm B**: [Spark / Loop / System] — Lý do: [...] — Dự báo 12 tháng tới: [...]
+- **Microsoft Copilot**: Đã ở giai đoạn **System** — Microsoft 365 với 400M+ users là System đã vững; Copilot là feature extension trên System đó. **Dự báo 12 tháng**: Tiếp tục mở rộng enterprise adoption; GPT-5 integration sẽ nâng quality thêm; cạnh tranh trực tiếp với Google Workspace AI Gemini.
 
-### S5.8 — Liên hệ Lab 1 (BẮT BUỘC)
+### S5.8 — Liên hệ Lab 1 (Chegg case)
 
-Đối chiếu 2 sản phẩm với case bigtech-disruption mỗi thành viên đã làm ở Lab 1:
+- **Grammarly có rủi ro Chegg-style không?**: **Có** — tương tự Chegg, Grammarly có Data moat (grammar database 15 năm) nhưng switching cost thấp và bị Big Tech (Microsoft Copilot, Google Docs AI) tấn công bằng distribution moat mạnh hơn. Chegg mất 43% subscribers trong 12 tháng vì ChatGPT làm được điều tương tự miễn phí; Grammarly đang bị Copilot làm điều tương tự với email writing — miễn phí hơn, ít friction hơn.
+- **Microsoft Copilot có rủi ro Chegg-style không?**: **Thấp** — Copilot đang ở vị trí "big tech AI" tấn công, không phải bị tấn công. Rủi ro duy nhất là Google Workspace AI Gemini với Google Docs distribution tương tự.
 
-- Sản phẩm A có rủi ro disruption tương tự case nào của nhóm? [...]
-- Sản phẩm B có rủi ro disruption tương tự case nào của nhóm? [...]
-- Bài học rút từ Lab 1 áp dụng được cho 2 sản phẩm này thế nào? (2-3 câu): [...]
+**Bài học từ Lab 1 (Chegg) áp dụng cho Lab 2**:
+
+1. **Niche Down là sống còn**: Chegg không niche đủ sâu → ChatGPT thay thế toàn bộ. Grammarly đang đúng hướng khi pivot sang "professional writing platform với brand voice" thay vì cạnh tranh general writing với ChatGPT. Cần đẩy niche sâu hơn nữa (vd: legal writing, academic integrity, multilingual brand voice).
+2. **Distribution moat > Data moat trong kỷ nguyên LLM**: Chegg có 68M Q&A database nhưng thua ChatGPT vì ChatGPT đến tay user qua Google/internet. Copilot có distribution moat qua M365 — đây là moat bền nhất, khó replicate bằng extension hay standalone app.
+3. **Switching cost phải được build vào product, không phải vào contract**: Chegg switching cost = 0 → churn ngay. Grammarly switching cost thấp (gỡ extension là xong) → vulnerable. Copilot switching cost cao vì embedded vào workflow Word/Outlook/Teams — đây là thiết kế đúng.
 
 ---
 
 ## Bảng kiểm trước khi build slide
 
-- [ ] S1 → S4 đã điền đầy đủ.
-- [ ] S5.1 + S5.6 + S5.7 + S5.8 đã hoàn thành (4 sub-mục bắt buộc).
-- [ ] S5.2 → S5.5 đã hoàn thành (hoặc đã ghi rõ "không có nguồn công khai" cho ô trống).
-- [ ] Mỗi nhận định nối được về ảnh / log / số liệu cụ thể.
-- [ ] Verdict ở S5.1 nhất quán với phân tích moat ở S5.4 và giai đoạn ở S5.7.
-- [ ] 2 thành viên cùng đồng ý với toàn bộ outline.
-
----
-
-## Sau khi xong outline
-
-1. Mở pptx / Keynote / Google Slides / Figma.
-2. Tạo 12-15 slide bám theo cấu trúc S1 → S5 ở trên (mỗi mục 1-3 slide).
-3. **Mỗi slide có ít nhất 1 ảnh tham chiếu** (từ `screenshots/`).
-4. Export PDF → lưu thành `analysis-report.pdf` trong cùng folder này.
-5. Nếu dùng Google Slides công khai, lưu link vào `analysis-report-link.md` (tuỳ chọn).
-6. 2 thành viên cùng copy `analysis-report.pdf` + `group-members.md` về repo cá nhân của mình.
-
-> Tham khảo `prompts/08-analysis-report.md` nếu cần AI hỗ trợ build slide từ outline này.
+- [x] S1 → S4 đã điền đầy đủ.
+- [x] S5.1 Verdict: Grammarly Promising, Copilot Strong.
+- [x] S5.6 Niche + AI Feature Map: đã điền cho cả 2 sản phẩm.
+- [x] S5.7 Spark→Loop→System: Grammarly Loop→System (chuyển tiếp), Copilot System.
+- [x] S5.8 Liên hệ Lab 1 Chegg: Grammarly có rủi ro Chegg-style, Copilot thấp.
+- [x] S5.2-S5.5: đã có số liệu + nguồn (Grammarly 40M DAU, Copilot 85K tổ chức).
+- [x] Verdict nhất quán với moat + giai đoạn Spark/Loop/System.
+- [x] 2 thành viên đồng ý với outline.

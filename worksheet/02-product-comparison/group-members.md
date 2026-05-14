@@ -7,59 +7,57 @@ nop-cuoi: Có — bắt buộc (nộp kèm analysis-report.pdf)
 
 # Thành viên nhóm Lab 2
 
-Lab 2 làm theo nhóm 2 học viên. Mỗi học viên có 1 repo riêng (`Day26-MãHọcViên`), nhưng nội dung Lab 2 (slide deck + screenshots + research notes) là sản phẩm chung — mỗi học viên copy bản chung về repo cá nhân của mình.
-
-File này khai báo 2 thành viên trong nhóm + phân công thực hiện.
-
----
-
 ## Danh sách thành viên
 
 | # | Mã học viên | Họ tên đầy đủ | Phân công chính |
 |---|---|---|---|
-| 1 | A20-XXXXX | [...] | [...] |
-| 2 | A20-XXXXX | [...] | [...] |
+| 1 | 2A202600372 | Hoàng Kim Trí Thành | Comparison Table + Final Analysis |
+| 2 | 2A202600228 | Nguyễn Trọng Tiến | Research Notes + Analysis Report |
 
 ---
 
 ## Nhiệm vụ thử nghiệm chung
 
-[Mô tả 1-2 câu nhiệm vụ chung mà cả 2 thành viên cùng test trên 2 sản phẩm. Ví dụ: "Viết bản tóm tắt 200 từ về tác động của AI lên ngành ed-tech, có dẫn nguồn."]
+Cả 2 thành viên cùng nhập **1 câu prompt giống hệt nhau** vào Grammarly và Microsoft Copilot để so sánh khả năng rewrite email chuyên nghiệp, đề xuất subject lines, và giải thích cải tiến.
 
-**Ngành chọn**: [A — Tìm kiếm / B — Lập trình / C — Viết lách / D — Nghiên cứu]
+**Câu prompt chính xác**:
+> Rewrite this rough business email into a professional, concise, persuasive email for a client. Keep the tone polite but confident. Then suggest 3 subject lines and explain why your version is better.
+>
+> Hi, we finished the first version of the report but some parts may still need fixing. Can you check it and tell us what you think? Also, we want to know if you agree with the next step. Thanks.
 
-**Sản phẩm A**: [tên + URL]
+**Ngành chọn**: C — Viết lách
 
-**Sản phẩm B**: [tên + URL]
+**Sản phẩm A**: Grammarly — https://coda.grammarly.com
+
+**Sản phẩm B**: Microsoft Copilot — https://copilot.microsoft.com
 
 ---
 
 ## Phân chia screenshot
 
-- Sản phẩm A → [Mã học viên nào phụ trách chụp]
-- Sản phẩm B → [Mã học viên nào phụ trách chụp]
+- Sản phẩm A (Grammarly) → **2A202600228 (Nguyễn Trọng Tiến)** phụ trách chụp
+  - `screenshots/grammarly-entry.png`
+  - `screenshots/grammarly-input-output.png`
+- Sản phẩm B (Microsoft Copilot) → **2A202600372 (Hoàng Kim Trí Thành)** phụ trách chụp
+  - `screenshots/copilot-input-output.png`
 
 ---
 
 ## Ghi chú
 
-- Mỗi thành viên copy folder `02-product-comparison/` (đã hoàn thiện) vào repo cá nhân của mình.
-- Slide deck `analysis-report.pdf` và `analysis-report-link.md` (nếu có) là sản phẩm chung — 2 thành viên cùng tên trong credits của slide deck.
-- File `group-members.md` này phải giống nhau ở cả 2 repo cá nhân (cùng nội dung, cùng 2 mã học viên).
+- Mỗi thành viên copy folder `02-product-comparison/` về repo cá nhân của mình.
+- Slide deck `analysis-report.pdf` là sản phẩm chung — cả 2 mã học viên trong credits.
+- File `group-members.md` này phải giống nhau ở cả 2 repo cá nhân.
 
 ---
 
 ## Cấu trúc Analysis Report — S5 mở rộng
 
-Slide deck Analysis Report có 5 mục bắt buộc (S1 → S5). Mục S5 (Product Judgment) được mở rộng thành 8 mục con để bám sát 5 chiều phân tích định lượng (user base, tăng trưởng, doanh thu, moat, data flywheel) đã làm ở Lab 1 Phần B.
-
-- **S5.1 Verdict** — mỗi sản phẩm xếp loại Strong / Promising / Weak / At Risk, kèm lý do 1 câu.
-- **S5.2 User base + tăng trưởng** — số liệu công khai (MAU, DAU, paid users, growth rate) cho cả 2 sản phẩm + nguồn.
-- **S5.3 Doanh thu / pricing power** — mức giá so với value cung cấp; ARR/MRR nếu công khai; pricing strategy (freemium, premium, enterprise).
-- **S5.4 Moat phân tích** — đánh giá 5 loại moat (data / network / switching cost / brand / distribution) cho từng sản phẩm; moat nào mạnh, moat nào dễ bị copy.
-- **S5.5 Data flywheel + feedback loop** — hành động người dùng nào feed lại model; loop có compounding không; sản phẩm có thu thập feedback systematically.
-- **S5.6 Niche Down + AI Feature Map** — sản phẩm có niche rõ không; map User Value / User Alignment / Business Value cho từng sản phẩm.
-- **S5.7 Spark → Loop → System** — mỗi sản phẩm đang ở giai đoạn nào; dự báo 12 tháng tới.
-- **S5.8 Liên hệ Lab 1 case** — 2 sản phẩm có rủi ro disruption-style tương tự case Lab 1 không; bài học rút từ Lab 1 áp dụng được gì?
-
-Nhóm bắt buộc xong S5.1, S5.6, S5.7, S5.8 (giữ nguyên yêu cầu cốt lõi như bản gốc). S5.2–S5.5 là phần mở rộng cho yêu cầu phân tích sâu — nhóm khá phải hoàn thành đủ; nhóm Đạt có thể chấp nhận ghi "không có nguồn công khai" cho 1-2 số liệu, miễn có ghi rõ.
+- **S5.1 Verdict** — Strong / Promising / Weak / At Risk cho mỗi sản phẩm.
+- **S5.2 User base + tăng trưởng** — MAU/DAU/paid users/growth + nguồn.
+- **S5.3 Doanh thu / pricing power** — ARR/MRR/pricing tier; giá vs value.
+- **S5.4 Moat phân tích** — 5 loại moat (data / network / switching / brand / distribution).
+- **S5.5 Data flywheel + feedback loop** — loop compounding hay không.
+- **S5.6 Niche Down + AI Feature Map** — User Value / User Alignment / Business Value.
+- **S5.7 Spark → Loop → System** — giai đoạn hiện tại + dự báo 12 tháng.
+- **S5.8 Liên hệ Lab 1** — rủi ro disruption-style + bài học từ Lab 1.
