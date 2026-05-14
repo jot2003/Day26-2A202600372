@@ -21,4 +21,4 @@ Xem `worksheet/02-product-comparison/group-members.md` — danh sách 2 thành v
 | 1 | 2A202600372 | Hoàng Kim Trí Thành |
 | 2 | 2A202600228 | Nguyễn Trọng Tiến |
 
-**Ngành**: A — Tìm kiếm | **Sản phẩm**: Perplexity vs ChatGPT Search
+**Ngành**: C — Viết lách | **Sản phẩm**: Grammarly vs Microsoft Copilot
