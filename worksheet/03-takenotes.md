@@ -23,10 +23,10 @@ Quy tắc khi viết:
 
 ## Thông tin
 
-- **Mã học viên**: A20-XXXXX
-- **Họ tên**: [...]
+- **Mã học viên**: 2A202600372
+- **Họ tên**: Hoàng Kim Trí Thành
 - **Ngày**: 2026-05-14
-- **Nhóm Lab 2 của tôi**: [Sản phẩm A vs Sản phẩm B trong ngành ___]
+- **Nhóm Lab 2 của tôi**: Grammarly vs Microsoft Copilot (Ngành C — Viết lách)
 
 ---
 

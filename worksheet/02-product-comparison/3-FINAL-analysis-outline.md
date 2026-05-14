@@ -14,7 +14,7 @@ nop-cuoi: Có gián tiếp — outline này là cốt cho `analysis-report.pdf`
 - **Nhiệm vụ chung**: Rewrite rough business email thành professional email + 3 subject lines
 - **Sản phẩm A**: Grammarly — https://coda.grammarly.com
 - **Sản phẩm B**: Microsoft Copilot — https://copilot.microsoft.com
-- **Câu prompt**: "Rewrite this rough business email into a professional, concise, persuasive email for a client. Keep the tone polite but confident. Then suggest 3 subject lines and explain why your version is better. [email thô]"
+- **Câu prompt**: "Rewrite this rough business email into a professional, concise, persuasive email for a client. Keep the tone polite but confident. Then suggest 3 subject lines and explain why your version is better. / Hi, we finished the first version of the report but some parts may still need fixing. Can you check it and tell us what you think? Also, we want to know if you agree with the next step. Thanks."
 
 ---
 

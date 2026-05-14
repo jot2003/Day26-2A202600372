@@ -78,8 +78,8 @@ nop-cuoi: Không — file trung gian
 - [x] Mỗi số liệu có URL nguồn cụ thể.
 - [x] Các nguồn S-01, S-02, S-07 từ trang Investor Relations chính thức của Chegg — đáng tin bậc 1.
 - [x] S-05 và S-06 được xác nhận bởi CNBC, Bloomberg, Reuters — đáng tin bậc 2.
-- [x] S-03 (ChatGPT launch) từ blog chính thức OpenAI — đáng tin bậc 1.
-- [x] S-04 (cổ phiếu lịch sử) có thể tra trực tiếp Yahoo Finance.
+- [x] S-04 (ChatGPT launch) từ blog chính thức OpenAI — đáng tin bậc 1.
+- [x] S-03 (cổ phiếu lịch sử) có thể tra trực tiếp Yahoo Finance.
 
 ---
 
